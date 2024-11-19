@@ -1,0 +1,83 @@
+Arduino_UNO_R4_WiFi:
+  SKU: "AB X00087"
+  Description: "The Arduino® UNO R4 WiFi is the first UNO board featuring a 32-bit microcontroller and an ESP32-S3 Wi-Fi® module. It utilizes a Renesas RA4M1 series microcontroller based on a 48 MHz Arm® Cortex®-M4 microprocessor."
+  Technical_Specifications:
+    Microcontroller:
+      Type: "R7FA4M1AB3CFM#AA0 (RA4M1)"
+      Processor: "48 MHz Arm® Cortex®-M4 with FPU"
+      Operating_Voltage: "5 V"
+      Memory:
+        Flash: "256 kB"
+        SRAM: "32 kB"
+        EEPROM: "8 kB"
+      Features:
+        RTC: "Real-time Clock"
+        MPU: "Memory Protection Unit"
+        DAC: "Up to 12-bit Digital-to-Analog Converter"
+        ADC: "14-bit ADC"
+        OPAMP: "Operational Amplifier"
+        CTSU: "Capacitive Touch Sensing Unit"
+        USBFS: "USB 2.0 Full-Speed Module"
+    Secondary_Microcontroller:
+      Type: "ESP32-S3-MINI-1-N8"
+      Processor: "Xtensa® dual-core 32-bit LX7"
+      Operating_Voltage: "3.3 V"
+      Crystal_Oscillator: "40 MHz"
+      Memory:
+        ROM: "384 kB"
+        SRAM: "512 kB"
+      Features:
+        Wi-Fi: "802.11 b/g/n standard (Wi-Fi® 4), up to 150 Mbps, 2.4 GHz band"
+        Bluetooth: "Bluetooth® 5"
+        Logic_Level_Translator: "TXB0108DQSR (5 V to 3.3 V)"
+  Features:
+    Connectivity:
+      UART: "1x (pin D0, D1)"
+      SPI: "1x (pin D10-D13, ICSP header)"
+      I2C: "1x (pin A4, A5, SDA, SCL)"
+      CAN: "1x (pin D4, D5, external transceiver required)"
+      USB_Port: "USB-C® for power and programming"
+    Power:
+      Operating_Voltage: "5 V for RA4M1, 3.3 V for ESP32-S3"
+      Input_Voltage:
+        VIN: "6-24 V"
+        USB: "4.8-5.5 V"
+      Power_Tree: "ISL854102FRZ Buck Converter"
+      Protection: "Schottky Diodes for polarity & overvoltage protection"
+    Interfaces:
+      LED_Matrix: "12x8 Red LED Matrix (Charlieplexing)"
+      DAC: "Up to 12-bit resolution on A0 pin"
+      I2C_Connector: "Powered via 3.3 V"
+  Applications:
+    Target_Areas: ["Maker", "Beginner", "Education"]
+    Entry_Level_Projects: "Easy to get started with, with thorough online documentation."
+    IoT_Applications: "Build projects in Arduino Cloud without networking code."
+    LED_Matrix_Projects: "Animations, text scrolling, mini-games."
+  Recommended_Operating_Conditions:
+    VIN: 
+      Min: "6 V"
+      Typ: "7 V"
+      Max: "24 V"
+    VUSB: 
+      Min: "4.8 V"
+      Typ: "5 V"
+      Max: "5.5 V"
+    Operating_Temperature: 
+      Min: "-40 °C"
+      Typ: "25 °C"
+      Max: "85 °C"
+  Related_Products:
+    - "UNO R3"
+    - "UNO R3 SMD"
+    - "UNO R4 Minima"
+  Certifications:
+    CE_DoC: "Declaration of Conformity to EU Directives for free market movement."
+    RoHS_Reach: 
+      RoHS_2: "2011/65/EU"
+      RoHS_3: "2015/863/EU"
+      REACH_211: "Compliance with Regulation (EC) 1907/2006"
+    FCC: "Part 15 compliance and safety instructions."
+    Conflict_Minerals: "Declaration of sourcing conflict-free minerals."
+  Company_Information:
+    Name: "Arduino SRL"
+    Address: "Via Andrea Appiani, 25 - 20900 MONZA, Italy"

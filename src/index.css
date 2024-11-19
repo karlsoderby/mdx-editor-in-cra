@@ -1,3 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@mdxeditor/editor/style.css";
+
+/* Target nested structure */
+h1, h1 span[data-lexical-text="true"] {
+  @apply text-3xl font-bold;
+}
+
+h2, h2 span[data-lexical-text="true"] {
+  @apply text-2xl font-semibold;
+}
+
+h3, h3 span[data-lexical-text="true"] {
+  @apply text-xl font-medium;
+}
+
+h4, h4 span[data-lexical-text="true"] {
+  @apply text-lg font-medium;
+}
+
+h5, h5 span[data-lexical-text="true"] {
+  @apply text-base font-medium;
+}
+
+h6, h6 span[data-lexical-text="true"] {
+  @apply text-sm font-medium;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

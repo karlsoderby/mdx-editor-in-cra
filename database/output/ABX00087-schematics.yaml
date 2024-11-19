@@ -1,0 +1,57 @@
+hardware_data:
+  components:
+    - name: UNO R4 WiFi
+      id: ABX00087
+      date: "23/08/2023"
+      time: "18:21:42"
+      author: Silvio Navaretti
+      version: Rev
+  connections:
+    - fiducials:
+      - Fiducial_1
+      - Fiducial_2
+    - resistors:
+      - 5.1kR8
+      - 5.1kR4
+      - 5.1kR5
+      - 100kR3
+      - 100kR49
+      - etc.
+    - inputs/outputs:
+      - SCL: 18
+      - SDA: 17
+      - AREF: 16
+      - GND: 15
+      - D13/SCK: 14
+      - etc.
+    - power:
+      - +5V
+      - +3V3
+      - VIN
+    - digital_pins:
+      - D0/RX: 1
+      - D1/TX: 2
+      - D2: 3
+      - etc.
+    - analog_pins:
+      - A0: 9
+      - A1: 10
+      - A2: 11
+      - etc.
+  other_features:
+    - opamps:
+      - OPAMP+
+      - OPAMP-
+      - OPAMP OUT
+    - microcontroller:
+      - R7FA4M1AB3CFM #AA0
+    - level_translator:
+      - TXB0108DQSR
+    - esp_header:
+      - ESP_IO42
+      - ESP_TXD0
+      - ESP_RXD0
+    - misc:
+      - Push Button
+      - USB Connector
+      - LED Matrix
